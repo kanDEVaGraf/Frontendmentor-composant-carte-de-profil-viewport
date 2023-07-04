@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Open+Sans:wght@500&display=swap');
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(img/bg-pattern-top.svg), url(img/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    background-position: right 40vw bottom 50vh, left 50vw top 50vh;
+}
+
+.container {
+    background: white;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 100px auto 0;
+}
+
+.container .water {
+    height: 30%;
+}
+
+.container .water img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container .profil {
+    height: 70%;
+    width: 350px;
+}
+
+.container .profil .photo-victor img {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: 5px solid white;
+    position: relative;
+    bottom: 30px; 
+}
+
+.container h1 {
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 24px;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(229, 23%, 23%);
+}
+
+.container h1 span {
+    color: hsl(0, 0%, 59%);
+}
+
+.container .place {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(0, 0%, 59%);
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.container hr {
+   color: hsl(0, 0%, 59%);
+}
+
+.container .profil .account {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 25px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(229, 23%, 23%);
+}
+
+.container .profil .account span {
+    font-size: 12px;
+    color: hsl(0, 0%, 59%);
+}
+
+.attribution p {
+    font-size: 11px; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto 15px;
+    /*margin-top: 25px;*/
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
